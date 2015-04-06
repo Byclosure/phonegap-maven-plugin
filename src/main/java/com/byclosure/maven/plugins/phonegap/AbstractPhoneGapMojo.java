@@ -62,7 +62,8 @@ public abstract class AbstractPhoneGapMojo extends AbstractMojo {
 			cmdLine = new CommandLine("/bin/sh");
 			cmdLine.addArgument("-c");
 		} else {
-			cmdLine = new CommandLine("/bin/env");
+			cmdLine = new CommandLine("/bin/sh");
+			cmdLine.addArgument("-c");
 		}
 
 		return cmdLine;
