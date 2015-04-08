@@ -13,7 +13,7 @@ import java.util.Map;
 public class PlatformAddMojo extends AbstractPhoneGapMojo {
 
 	/**
-	 * @parameter default-value="android@3.7.0" expression="${phonegap.platform}"
+	 * @parameter default-value="android@3.7.1" expression="${phonegap.platform}"
 	 */
 	protected String platform;
 
