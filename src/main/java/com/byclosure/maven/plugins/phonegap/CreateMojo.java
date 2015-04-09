@@ -38,6 +38,7 @@ public class CreateMojo extends AbstractPhoneGapMojo {
 
 		final Map<String, String> env = getEnv();
 
+		System.out.println("Executing: " + cmd.toString());
 		executeCommandLine(cmd, env, workingDir);
 	}
 }
