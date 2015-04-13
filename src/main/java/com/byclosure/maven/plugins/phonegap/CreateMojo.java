@@ -33,8 +33,11 @@ public class CreateMojo extends AbstractPhoneGapMojo {
 			phonegapBinPath = "phonegap";
 		}
 
+		final String fixedName = name.replaceAll("-", "").replaceAll(" ", "");
+		final String fixedPackage = package_.replaceAll("-", "").replaceAll(" ", "");
+
 		final CommandLine cmd = getCrossPlatformCommandLine();
-		cmd.addArgument(phonegapBinPath + " create " + projectPath + " \"" + package_ + "\" \"" + name + "\"", false);
+		cmd.addArgument(phonegapBinPath + " create " + projectPath + " \"" + fixedPackage + "\" \"" + fixedName + "\"", false);
 
 		final Map<String, String> env = getEnv();
 
