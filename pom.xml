@@ -5,12 +5,15 @@
 
 	<groupId>com.byclosure.maven.plugins</groupId>
 	<artifactId>phonegap-maven-plugin</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.0.1</version>
 	<packaging>maven-plugin</packaging>
 
-	<name>A plugin for building a phonegap project using maven.</name>
-	<description></description>
-	<url></url>
+	<name>phonegap-maven-plugin</name>
+	<description>
+		A plugin for building a phonegap project using maven. This is done locally on your pc.
+		You need to have phonegap installed in your computer to use this plugin.
+	</description>
+	<url>https://github.com/Byclosure/phonegap-maven-plugin</url>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
