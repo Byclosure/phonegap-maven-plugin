@@ -5,7 +5,7 @@ A plugin for building a phonegap project using maven. The build is done locally 
 You need to have phonegap installed in your computer to use this plugin and your project must generate html.
 
 This plugin can be use with:
-* http:www.gwtproject.org
+* http://www.gwtproject.org
 * http://www.m-gwt.com
 * http://jbake.org
 * Any other framework that produces html apps
@@ -37,7 +37,7 @@ Add support for plugin (i.g. adding splashscreen plugin)
 mvn phonegap:plugin-add -Dphonegap.plugin="org.apache.cordova.splashscreen"
 ```
 
-Copy the compile html to the phonegap www folder (any plugin that copies files can be used)
+Copy the generated html to the phonegap www folder (any plugin that copies files can be used)
 ```xml
 <plugin>
       <artifactId>maven-antrun-plugin</artifactId>
