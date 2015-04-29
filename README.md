@@ -4,7 +4,7 @@ A plugin for building a phonegap project using maven. The build is done locally 
 
 You need to have phonegap installed in your computer to use this plugin and your project must generate html.
 
-This plugin can be use with:
+This plugin can be used with:
 * http://www.gwtproject.org
 * http://www.m-gwt.com
 * http://jbake.org
