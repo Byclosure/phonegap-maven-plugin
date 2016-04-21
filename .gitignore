@@ -1,4 +1,12 @@
+#IntelliJ
 phonegap-maven-plugin.iml
 phonegap-maven-plugin.ipr
 phonegap-maven-plugin.iws
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# Build artifacts
 target/
